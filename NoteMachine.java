@@ -18,7 +18,6 @@ public class NoteMachine {
 		
 		int copy=money; 
 		
-		
 		for(int i=0;i<8;i++) 
 		{
 			// counting number of notes.
