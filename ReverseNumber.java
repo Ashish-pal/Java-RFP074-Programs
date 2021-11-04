@@ -1,11 +1,9 @@
 package reverse_number;
 
-import java.util.*;
+import java.util.Scanner;
 public class ReverseNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int num, rem = 0;
 		
 		Scanner sc = new Scanner(System.in);
@@ -20,7 +18,7 @@ public class ReverseNumber {
 			rem = rem + num%10;
 			num = num/10;
 		}
-		
+		sc.close();
 		System.out.println("Reverse Number: " +rem);
 	}
 
