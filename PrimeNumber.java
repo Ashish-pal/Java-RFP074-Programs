@@ -1,6 +1,5 @@
 package prime_number;
 
-
 import java.util.Scanner;
 public class PrimeNumber {
 
