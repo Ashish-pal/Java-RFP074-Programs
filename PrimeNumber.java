@@ -1,6 +1,7 @@
 package prime_number;
 
-import java.util.*;
+
+import java.util.Scanner;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
@@ -13,6 +14,8 @@ public class PrimeNumber {
 		
 		num = sc.nextInt();
 		
+		sc.close();
+		
 		for(i=2;i<num;i++) {
 			if(num%i==0)
 				count++;
@@ -22,6 +25,7 @@ public class PrimeNumber {
 			System.out.println("Not a Prime number");
 		else
 			System.out.println("Prime number");
+		
 	}
 
 }
